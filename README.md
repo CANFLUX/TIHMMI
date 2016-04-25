@@ -64,7 +64,8 @@ Feel free to use your own scripts or remix ours. If you come up with a system yo
 
 ## Funding & Support
 
-* ...
-* ...
+* NSERC - Natural Science and Engineering Research Council of Canada (PI: Andreas Christen)
+* Canadian Foundation for Innovation (CFI)
+* The University of British Columbia
 * Mozilla Science Lab
 * ...
