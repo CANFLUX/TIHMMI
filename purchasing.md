@@ -21,7 +21,7 @@
 * [MAX31856 Precision Thermocouple to Digital Converter with Linearization](http://www.ebay.com/itm/MAX31856-Digital-Thermocouple-Interface-3-3-5V-Arduino-RPi-MAX31855-upgrade-/231689027185 )
 * [Aspired thermocouple with mounts (ASPTC-L)](https://www.campbellsci.ca/asptc)
 * [Digital relative humidity & temperature sensor AM2302/DHT22](https://www.adafruit.com/products/393	   )
-* Arduino Mega
+* [Arduino Mega](https://www.adafruit.com/products/191)
 * [Adafruit GPS logger shield](https://www.adafruit.com/product/1272) 
 * [GPS antena](https://www.adafruit.com/product/960)
 * [Adaptor for the Antena](https://www.adafruit.com/products/851)
