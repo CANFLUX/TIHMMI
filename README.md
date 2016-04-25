@@ -68,4 +68,7 @@ Feel free to use your own scripts or remix ours. If you come up with a system yo
 * Canadian Foundation for Innovation (CFI)
 * The University of British Columbia
 * Mozilla Science Lab
+* Departamento de Geografia y Centro de Investigaciones Geográficas - FCH - UNCPBA (Argentina)
+* IGEHCS - CONICET/UNCPBA (Argentina)
+* CONICET, Argentina
 * ...
