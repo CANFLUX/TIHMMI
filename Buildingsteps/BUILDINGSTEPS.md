@@ -6,9 +6,9 @@
  A- Connect the Thermocouple to the Interface.
  B- Connect the Interface to the Arduino Mega according to these instructions:
  
- |Interface                                                 | Arduino Mega                                             |
- |----------------------------------------------------------|----------------------------------------------------------|
- | CS                                                       | PIN 49                                                   |
+ |Interface | Arduino Mega |
+ |----------|--------------|
+ | CS       | PIN 49       |
  | SCK      | PIN 52       |
  | SDO      | PIN 50       |
  | SDI      | PIN 51       |
