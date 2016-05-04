@@ -21,7 +21,7 @@
    Yellow Wire (Data) to the PIN 2, be aware that you need to put a 10K resistor between these cable and the red wire.
  
 # Step 4: Adding the MLX90614 to the Arduino Mega
-![](Step3.jpeg)
+![](Steps3.jpeg)
  Connect the Infrared Termometer sensor as the diagram:
    PWR to 5V
    GRN to GRN
