@@ -17,7 +17,7 @@
 
  
 For more details see the diagram:
-![](Steps1.jpg)
+![](Step1.jpg)
 
 ## Step 3: Adding the AM4022 to the Arduino Mega
 Connect the Temperature and Humidity sensor acording to the next instructions:
@@ -32,7 +32,7 @@ Connect the Temperature and Humidity sensor acording to the next instructions:
 You will need to put a 10K resistor between the yellow wire and the red wire.
 
 For more details see the diagram:
-![](Step2.jpg)
+![](Steps2.jpg)
 
 
 ## Step 4: Adding the MLX90614 to the Arduino Mega
@@ -50,6 +50,6 @@ You will need to put a 10K between the SDA and the PWR.
 You will need to put a 10K between the SCL and the PWR.
 
 For more details see the diagram:
-![](Step3.jpg)
+![](Step3s.jpg)
 
  
