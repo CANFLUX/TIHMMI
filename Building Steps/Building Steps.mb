@@ -1,4 +1,4 @@
-#Building Steps
+#ASSAMBLING TIHMMI
 ##Step 1: Put the Arduino Mega and the Adafruit GPS logger shield together as the library indicates
 ##Step 2: Adding the Digital Thermocouple Interface (MAX318566) to the Arduino Mega
  A- Connect the Thermocouple to the Interface.
