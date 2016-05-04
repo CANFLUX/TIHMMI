@@ -50,6 +50,6 @@ You will need to put a 10K between the SDA and the PWR.
 You will need to put a 10K between the SCL and the PWR.
 
 For more details see the diagram:
-![](Step3s.jpg)
+![](Step3.jpg)
 
  
