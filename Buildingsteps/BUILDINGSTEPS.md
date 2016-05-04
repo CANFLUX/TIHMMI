@@ -3,9 +3,9 @@
 ## Step 1: Put the Arduino Mega and the Adafruit GPS logger shield together as the instruction indicates
 
 ## Step 2: Adding the Digital Thermocouple Interface (MAX318566) to the Arduino Mega
-Connect the Thermocouple to the Interface.
+A - Connect the Thermocouple to the Interface.
 
-Connect the Interface to the Arduino Mega according to these instructions:
+B - Connect the Interface to the Arduino Mega according to these instructions:
  
 | Interface   | Arduino Mega |
 |-------------|--------------|
