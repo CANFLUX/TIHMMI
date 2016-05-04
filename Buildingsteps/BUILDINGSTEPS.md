@@ -4,6 +4,7 @@
 
 ## Step 2: Adding the Digital Thermocouple Interface (MAX318566) to the Arduino Mega
 Connect the Thermocouple to the Interface.
+
 Connect the Interface to the Arduino Mega according to these instructions:
  
 | Interface   | Arduino Mega |
