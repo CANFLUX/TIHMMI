@@ -1,0 +1,26 @@
+.brand-logo{
+	margin-left: 10px;
+}
+
+nav .brand-logo{
+	color:black;
+	font-size: 16px;
+}
+nav ul a{
+	color:black;	
+}
+
+.z-depth-0 {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0);
+
+}
+
+section{
+	padding-top: 250px;
+}
+
+#index-banner{
+	margin-top: 100px;
+}
