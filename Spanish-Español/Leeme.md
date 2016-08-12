@@ -19,7 +19,7 @@ Valoramos la participación de todos aquellos que les interese este proyecto. Pa
 
 ## Contribuciones / Feedback
 
-Nos encantaría recibir aportes y ayudas. Por favor lea nuestra [Guía de Constribuciones](Constribuciones.MD) para mejorar a TIHMMI! 
+Nos encantaría recibir aportes y ayudas. Por favor lea nuestra [Guía de Constribuciones](Contribuciones.MD) para mejorar a TIHMMI! 
 
 
 <br>
@@ -30,7 +30,7 @@ Nos encantaría recibir aportes y ayudas. Por favor lea nuestra [Guía de Constr
 
 ## Partes necesarias
 
-Por favor vea [Lista de compras](compras.md) para conocer los componentes, su precio y donde comprarlos. 
+Por favor vea [Lista de compras](Compras.md) para conocer los componentes, su precio y donde comprarlos. 
 
 ## Contruye TIHMMI
 Existen dos partes para construir tu TIHMMI - el hardware y el software. Enconstraras todo lo necesario para construir a TIHMMI y las actualizaciones de software en este repositorio. 
