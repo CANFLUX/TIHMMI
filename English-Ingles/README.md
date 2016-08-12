@@ -1,4 +1,4 @@
-# The TIHMMI Project: An urban heat island mapping kit
+﻿# The TIHMMI Project: An urban heat island mapping kit
 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -19,7 +19,7 @@ We value the participation of all contributors. To help maintain a welcoming and
 
 ## Contributing / Feedback
 
-We would love your feedback and help. Please read our [contributor guidelines](CONTRIBUTING.MD) to see how you can make TIHMMI better! 
+We would love your feedback and help. Please read our [contributor guidelines](https://github.com/ubc-micromet/TIHMMI/blob/master/English-Ingles/CONTRIBUTING.md) to see how you can make TIHMMI better! 
 
 
 <br>
@@ -30,14 +30,14 @@ We would love your feedback and help. Please read our [contributor guidelines](C
 
 ## Parts and Purchasing
 
-Please see the [purchasing list](purchasing.md) for the list of components, pricing, and where to purchase the parts. 
+Please see the [purchasing list](https://github.com/ubc-micromet/TIHMMI/blob/master/English-Ingles/purchasing.md) for the list of components, pricing, and where to purchase the parts. 
 
 ## Build your own TIHMMI
 There are two components of your TIHMMI - the hardware and the software. You will first need to construct your TIHMMI and then upload the software. 
 
 ### Hardware
 
-The instructions for building your TIHMMI can be found [here]().
+The instructions for building your TIHMMI can be found [here](https://github.com/ubc-micromet/TIHMMI/blob/master/English-Ingles/Buildingsteps/BUILDINGSTEPS.md).
 
 ### Software
 

@@ -19,7 +19,7 @@ Valoramos la participación de todos aquellos que les interese este proyecto. Pa
 
 ## Contribuciones / Feedback
 
-Nos encantaría recibir aportes y ayudas. Por favor lea nuestra [Guía de Constribuciones](CONTRIBUCIONES.MD) para mejorar a TIHMMI! 
+Nos encantaría recibir aportes y ayudas. Por favor lea nuestra [Guía de Constribuciones](https://github.com/ubc-micromet/TIHMMI/blob/master/Spanish-Espa%C3%B1ol/Contribuciones.md) para mejorar a TIHMMI! 
 
 
 <br>
@@ -30,14 +30,14 @@ Nos encantaría recibir aportes y ayudas. Por favor lea nuestra [Guía de Constr
 
 ## Partes necesarias
 
-Por favor vea [Lista de compras](LISTADECOMPRAS.md) para conocer los componentes, su precio y donde comprarlos. 
+Por favor vea [Lista de compras](https://github.com/ubc-micromet/TIHMMI/blob/master/Spanish-Espa%C3%B1ol/LISTADECOMPRAS.md) para conocer los componentes, su precio y donde comprarlos. 
 
 ## Contruye TIHMMI
 Existen dos partes para construir tu TIHMMI - el hardware y el software. Enconstraras todo lo necesario para construir a TIHMMI y las actualizaciones de software en este repositorio. 
 
 ### Hardware
 
-Las instrucciones para construir a TIHMMI las puedes encontrar en [aqui](https://github.com/ubc-micromet/TIHMMI/tree/master/Spanish-Espa%C3%B1ol/PasosdeConstruccion).
+Las instrucciones para construir a TIHMMI las puedes encontrar en [aqui](https://github.com/ubc-micromet/TIHMMI/blob/master/Spanish-Espa%C3%B1ol/Pasosdeconstruccion/BUILDINGSTEPS.md).
 
 ### Software
 
