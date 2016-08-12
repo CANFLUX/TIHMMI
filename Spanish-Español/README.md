@@ -30,18 +30,18 @@ Nos encantaría recibir aportes y ayudas. Por favor lea nuestra [Guía de Constr
 
 ## Partes necesarias
 
-Por favor vea [Lista de compras](COMPRAS.md) para conocer los componentes, su precio y donde comprarlos. 
+Por favor vea [Lista de compras](LISTADECOMPRAS.md) para conocer los componentes, su precio y donde comprarlos. 
 
 ## Contruye TIHMMI
 Existen dos partes para construir tu TIHMMI - el hardware y el software. Enconstraras todo lo necesario para construir a TIHMMI y las actualizaciones de software en este repositorio. 
 
 ### Hardware
 
-Las instrucciones para construir a TIHMMI las puedes encontrar en [aqui](Pasosdeconstrucción).
+Las instrucciones para construir a TIHMMI las puedes encontrar en [aqui](https://github.com/ubc-micromet/TIHMMI/tree/master/Spanish-Espa%C3%B1ol/PasosdeConstruccion).
 
 ### Software
 
-Las actualizaciones del software del microcontrolador de TIHMMI [aqui](code).
+Las actualizaciones del software del microcontrolador de TIHMMI [aqui](https://github.com/ubc-micromet/TIHMMI/tree/master/Spanish-Espa%C3%B1ol/code).
 
 ## Procesamiento de los datos
 
