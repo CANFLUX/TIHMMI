@@ -1,3 +1,14 @@
+
+/*
+ * Revisions:
+ * 
+ * Nov 21, 2016 (Zoran)
+ *  - Corrected LED output on SD_workingLEDpin
+ *     - used wrong command (analogWrite instead of digitalWrite, this is not a PWM pin)
+ *  - Changed the name of DEBUG_PRINT to DEBUG_PRINT_TIHMMI. DEBUG_PRINT was already in 
+ *    use in one of the libraries causing warnings on compile.
+ */
+
 #include <Adafruit_GPS.h>
 #include <SoftwareSerial.h>
 #include <SD.h>
@@ -41,8 +52,8 @@ DHT dht(DHTPIN, DHTTYPE);
 // Set the pins used
 #define chipSelect 10
 #define ledPin 13
-#define SD_workingLEDpin 44    // This pin is HIGH if there is an SD writing problem
-#define LEDintensity 30        // intensity of LED on the SD_workingLEDpin
+#define SD_workingLEDpin 26    // This pin is HIGH if there is an SD writing problem
+//#define LEDintensity 100        // intensity of LED on the SD_workingLEDpin
 //#define RELAY_LI820 3          // Pin that turns the LI820 relay ON
 #define RELAY_PUMP  4          // Pin that turns the pump relay ON
 
@@ -75,7 +86,7 @@ PWF_MAX31856  thermocouple0(TC0_CS, TC0_FAULT, TC0_DRDY);
 
 // Set to true if you want two output strings to be printed on Serial using two different
 // methods (troubleshooting only)
-#define DEBUG_PRINT  false
+#define DEBUG_PRINT_TIHMMI  false
 
 const int MAX_BUFFER_LEN = 200;
 boolean usingInterrupt = false;
@@ -96,6 +107,8 @@ int led_datalogging = 6;
 
 
 void setup() {
+  pinMode(SD_workingLEDpin,OUTPUT);
+  digitalWrite(SD_workingLEDpin,HIGH);
 
   digitalWrite(RELAY_PUMP,HIGH);
 
@@ -105,7 +118,7 @@ void setup() {
 
   // PC Serial port output at 115200 baud
   Serial.begin(115200);
-  Serial.println("LI-820 Logging program by Zoran Nesic, Biomet/Micromet - UBC");
+  Serial.println("TIHMMI Logging program by Joey Lee and Zoran Nesic, Biomet/Micromet - UBC");
   Serial.println(freeRam());
 
   // make sure that the default chip select pin is set to
@@ -351,7 +364,7 @@ void loop() {
     strcat(myBuffer, ","); dtostrf(irobj, 3, DECIMALS, myNumber); strcat(myBuffer, myNumber);
     
     
-    if (DEBUG_PRINT) {
+    if (DEBUG_PRINT_TIHMMI) {
       Serial.print(GPS.latitude, 5); Serial.print(GPS.lat);
       Serial.print(", ");
       Serial.print(GPS.longitude, 5); Serial.print(GPS.lon);
@@ -371,7 +384,7 @@ void loop() {
     digitalWrite(led_gpsfix, LOW);
     delay(500);
 
-    if (DEBUG_PRINT) {
+    if (DEBUG_PRINT_TIHMMI) {
       Serial.print(",,,,");
     }
   }
@@ -403,11 +416,11 @@ void loop() {
       // make sure that user will notice this and reset the module once the card
       // is back and ready.
 
-      analogWrite(SD_workingLEDpin, LEDintensity);
+      digitalWrite(SD_workingLEDpin, HIGH);
     }
     else {
       // Card writing worked.  Turn OFF the external LED.
-      analogWrite(SD_workingLEDpin, 0);
+      digitalWrite(SD_workingLEDpin, LOW);
     }
   }
   else {
@@ -574,10 +587,10 @@ void error(uint8_t errno) {
     uint8_t i;
     for (i = 0; i < errno; i++) {
       digitalWrite(ledPin, HIGH);
-      analogWrite(SD_workingLEDpin, LEDintensity);
+      digitalWrite(SD_workingLEDpin, HIGH);
       delay(100);
       digitalWrite(ledPin, LOW);
-      analogWrite(SD_workingLEDpin, 0);
+      digitalWrite(SD_workingLEDpin, LOW);
       delay(100);
     }
     for (i = errno; i < 10; i++) {
