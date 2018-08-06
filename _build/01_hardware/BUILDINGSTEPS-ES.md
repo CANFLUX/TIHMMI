@@ -4,7 +4,7 @@
 
 ## Paso 2: Incoporar Digital Thermocouple Interface (MAX318566) al Arduino Mega
 A - Soldar los pines a la Digital Thermocouple Interface.
-![](Img1.jpg)
+![](images/Img1.jpg)
 
 B - Conectar la temocupla a la interface.
 
@@ -21,7 +21,7 @@ C - Conectar la interface al Arduino Mega según las siguientes instrucciones:
 
  
 Para mayores detalle vea el siguiente diagrama:
-![](Step1.jpg)
+![](images/Step1.jpg)
 
 ## Paso 3: Incorporar el AM4022 al Arduino Mega
 Conectar el sensor de Temperatura y humedad según las siguientes instrucciones:
@@ -36,7 +36,7 @@ Conectar el sensor de Temperatura y humedad según las siguientes instrucciones:
 Necesitaras poner resistores de 10K resistor entre el cable amarillo y el rojo.
 
 Para mayores detalle vea el siguiente diagrama:
-![](Steps2.jpg)
+![](images/Steps2.jpg)
 
 
 ## Step 4: Incorporar el MLX90614 al Arduino Mega
@@ -54,6 +54,6 @@ Necesitaras un resistor de 10K entre el SDA y el PWR.
 Necesitaras un resistor de 10K entre el SCL y el PWR.
 
 Para mayores detalle vea el siguiente diagrama:
-![](Steps3.jpg)
+![](images/Steps3.jpg)
 
  
