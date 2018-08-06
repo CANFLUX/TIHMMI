@@ -2,6 +2,8 @@
 
 Temperature + Infrared + Humidity Mobile Mapping Instrument
 
+## For documentation in Español, please see: [README-ES.md](README-ES.md)
+
 ![Image of TIHMMI sensor in box](assets/images/P101003420180728.JPG)
 
 ![Image of TIHMMI sensor in box](assets/images/bike-at-prospect-park.png)
