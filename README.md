@@ -2,18 +2,20 @@
 
 Temperature + Infrared + Humidity Mobile Mapping Instrument
 
-![Image of TIHMMI sensor in box](P101003420180728.JPG)
+![Image of TIHMMI sensor in box](assets/images/P101003420180728.JPG)
+
+![Image of TIHMMI sensor in box](assets/images/Screen Shot 2018-08-05 at 19.06.56.png)
 
 
 ## Index
 
 * [About the project](##About)
 * [Build your own TIHIMMI](_build/)
-    - [01 - Hardware Step-by-step]()
-    - [02 - Enclosure Files for laser cutter]() 
-    - [03 - Arduino Code]()
-* [Sample Dataset]()
-* [Images](assets/)
+    - [01 - Hardware Step-by-step](_build/01_hardware)
+    - [02 - Enclosure Files for laser cutter](_build/02_enclosure) 
+    - [03 - Arduino Code](_build/03_code)
+* [Sample Dataset](data/180805/)
+* [Images](assets/images/)
 
 ## About 
 
