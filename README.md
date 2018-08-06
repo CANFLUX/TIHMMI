@@ -4,7 +4,7 @@ Temperature + Infrared + Humidity Mobile Mapping Instrument
 
 ![Image of TIHMMI sensor in box](assets/images/P101003420180728.JPG)
 
-![Image of TIHMMI sensor in box](assets/images/Screen Shot 2018-08-05 at 19.06.56.png)
+![Image of TIHMMI sensor in box](assets/images/bike-at-prospect-park.png)
 
 
 ## Index
